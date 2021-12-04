@@ -1,75 +1,27 @@
-# VIAPLAY
+# ViaplayApp
 
-Project Description:
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
 
-Creating a Project:
+## Development server
 
-Install the Angular CLI using NPM
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-npm install -g @angular/cli
+## Code scaffolding
 
-Project Creation usin Angular CLI:
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-ng new viaplay-app
+## Build
 
-The ng new command prompts you for information about features to include in the initial application project. Accept the defaults by pressing the Enter or Return key.
-The Angular CLI installs the necessary Angular npm packages and other dependencies. This can take a few minutes.
-It also creates the following workspace and starter project files:
-•	A new workspace, with a root folder named viaplay-app.
-•	An initial skeleton app project in the src/app subfolder.
-•	Related configuration files.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-Then open the project in the preferred Editor 
-Then install global support of TypeScript language executing this command in your terminal:
-npm install -g typescript
-The flag -g (the short form from the — global) indicates that this package will be installed globally in the system
-Then next open the project using the command:
-Ng serve –open
+## Running unit tests
 
-Steps(commands) to Run the solution:
-Please note that the latest version of node JS has to be installed
-To install all the packages and relevant references:
-npm i
-Then to run and open the solution:
-Ng serve – open
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Application Screen Shot:
+## Running end-to-end tests
 
- 
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+## Further help
 
-Second Screen Shot
-
- 
-
-
-
-Affected Pages:
-The U- Pages are newly added for the project: 
-The M- Pages are modified pages to support the newly added component, CSS and HTML
- 
-Code Structure:
-
-1.	Added the Separate components for Header and Footer. So that, it will be easy to make any additional changes to those components like adding the copyright to the footer as an example
-2.	Added a app.routing module to create any routes from the main page to the other pages, if we add any in future
-3.	Added a separate component to show the series details in a single. Again, the same reason as like header and footer components for adding it as a separate component.
-
-
-
-4.	To Avoid tbe CORS error, A Proxy JSON is included in the source folder as well as in the root angular.json file
-5.	{
-6.	  "/api/*": {
-7.	      "target": "https://content.viaplay.se/",
-8.	      "secure": false,
-9.	      "logLevel": "debug"
-10.	  }
-11.	}
-
-12.	The page is kept with display:flex to make the screen responsive even in mobile resolution. Few screenshots in different mobile resolutions.
-13.	It is verified in Ipad, Iphone, android Phone and the latest Samsung galaxy fold Resolution
-
-Key Selection of Series:
-1.	Key Movement between the different titles is enabled.
-2.	On the page load itself, a focus is set on the 1st title so that, we can move between the other titles easily
-3.	Enter button click is also added and a brief synopsis will be shown.
-4.	Jquery Library is used to set the focus on first title on page load
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

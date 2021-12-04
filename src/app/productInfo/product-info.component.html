@@ -1,0 +1,11 @@
+<div *ngIf="!this.show">
+    <div class="eachThumbNail">
+        <img src={{this.result.content.images.boxart.url}} alt="No Image Available" />
+    </div>
+    <div class="eachThumbNail">
+        <label class="bold">IMDB Rating: </label><span>{{this.result.content.imdb.rating}}</span>
+        <label class="bold block">Title </label><span>{{this.result.content.series.season.title}}</span>
+        <label class="bold block">Synopsis </label><span class="block">{{this.result.content.series.synopsis}}</span>
+    </div>
+
+</div>

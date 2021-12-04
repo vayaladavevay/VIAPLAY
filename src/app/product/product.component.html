@@ -1,0 +1,13 @@
+<div  class="parent" *ngIf="this.hide">
+
+        <div *ngFor="let eachResult of productDetails; let i = index">
+
+            <div key-sel  id="testVar" class="eachThumbNail"  (keyup.enter)="loadSeriesInfo(eachResult)">
+                <img src={{eachResult.content.images.landscape.url}} alt="No Image Available"
+                    style="width: 320px;Height:220px;"
+                     />
+            </div>
+        </div>
+</div>
+<app-product-info></app-product-info>
+

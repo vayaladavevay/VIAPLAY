@@ -1,0 +1,9 @@
+{
+  "/api/*": {
+      "target": "https://content.viaplay.se/",
+      "secure": false,
+      "changeOrigin": true,
+      "logLevel": "debug",
+      "pathRewrite": {"^/api" : ""}
+  }
+}
