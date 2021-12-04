@@ -68,14 +68,6 @@ Code Structure:
 12.	The page is kept with display:flex to make the screen responsive even in mobile resolution. Few screenshots in different mobile resolutions.
 13.	It is verified in Ipad, Iphone, android Phone and the latest Samsung galaxy fold Resolution
 
-
-
-
-         
-
-            
-
-
 Key Selection of Series:
 1.	Key Movement between the different titles is enabled.
 2.	On the page load itself, a focus is set on the 1st title so that, we can move between the other titles easily
